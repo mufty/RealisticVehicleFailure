@@ -90,8 +90,8 @@ cfg = {
 	deformationExponent = 0.6,					-- How much should the handling file deformation setting be compressed toward 1.0. (Make cars more similar). A value of 1=no change. Lower values will compress more, values above 1 it will expand. Dont set to zero or negative.
 	collisionDamageExponent = 0.8,				-- How much should the handling file deformation setting be compressed toward 1.0. (Make cars more similar). A value of 1=no change. Lower values will compress more, values above 1 it will expand. Dont set to zero or negative.
 
-	damageFactorEngine = 0.2,					-- Sane values are 1 to 100. Higher values means more damage to vehicle. A good starting point is 10
-	damageFactorBody = 0.2,						-- Sane values are 1 to 100. Higher values means more damage to vehicle. A good starting point is 10
+	damageFactorEngine = 0.1,					-- Sane values are 1 to 100. Higher values means more damage to vehicle. A good starting point is 10
+	damageFactorBody = 0.1,						-- Sane values are 1 to 100. Higher values means more damage to vehicle. A good starting point is 10
 	damageFactorPetrolTank = 25.0,				-- Sane values are 1 to 100. Higher values means more damage to vehicle. A good starting point is 64
 	engineDamageExponent = 0.6,					-- How much should the handling file engine damage setting be compressed toward 1.0. (Make cars more similar). A value of 1=no change. Lower values will compress more, values above 1 it will expand. Dont set to zero or negative.
 	weaponsDamageMultiplier = 0.5,			-- How much damage should the vehicle get from weapons fire. Range 0.0 to 10.0, where 0.0 is no damage and 10.0 is 10x damage. -1 = don't touch
@@ -117,28 +117,28 @@ cfg = {
 	randomTireBurstInterval = 0,				-- Number of minutes (statistically, not precisely) to drive above 22 mph before you get a tire puncture. 0=feature is disabled
 
 	classDamageMultiplier = {
-		[0] = 	1.0,		--	0: Compacts
-				1.0,		--	1: Sedans
-				1.0,		--	2: SUVs
-				0.95,		--	3: Coupes
-				1.0,		--	4: Muscle
-				0.95,		--	5: Sports Classics
-				0.95,		--	6: Sports
-				0.95,		--	7: Super
+		[0] = 	0.5,		--	0: Compacts
+				0.5,		--	1: Sedans
+				0.5,		--	2: SUVs
+				0.45,		--	3: Coupes
+				0.5,		--	4: Muscle
+				0.45,		--	5: Sports Classics
+				0.45,		--	6: Sports
+				0.45,		--	7: Super
 				0.27,		--	8: Motorcycles
-				0.7,		--	9: Off-road
+				0.3,		--	9: Off-road
 				0.25,		--	10: Industrial
 				0.35,		--	11: Utility
-				0.85,		--	12: Vans
-				1.0,		--	13: Cycles
-				0.4,		--	14: Boats
-				0.7,		--	15: Helicopters
-				0.7,		--	16: Planes
-				0.75,		--	17: Service
-				0.85,		--	18: Emergency
-				0.67,		--	19: Military
-				0.43,		--	20: Commercial
-				1.0			--	21: Trains
+				0.35,		--	12: Vans
+				0.5,		--	13: Cycles
+				0.3,		--	14: Boats
+				0.4,		--	15: Helicopters
+				0.4,		--	16: Planes
+				0.45,		--	17: Service
+				0.35,		--	18: Emergency
+				0.27,		--	19: Military
+				0.35,		--	20: Commercial
+				0.5			--	21: Trains
 	}
 }
 
